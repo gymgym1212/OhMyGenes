@@ -76,7 +76,6 @@ We will NEVER use the sotred results to seek any benefits. And it's still ok to 
 Constraints
 ===========
 There are some constraints in this system as following:
-
 1)	 According to the market shares of all kinds of browser and the compatibility of Internet Explorer, we decide that this software is accessible through Chrome, Firefox and Safari.
 
 2)	An excellent system should not need too much memory, so that it will run much faster and convenient, and we will not cost many internal storages for this system. Thus, the Web space is supposed to less than 1GB.

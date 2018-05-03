@@ -1,0 +1,330 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Software Requirements Specification for OMG Version 0.1 &mdash; OMG 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="#" class="icon icon-home"> OMG
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Software Requirements Specification for OMG Version 0.1</a></li>
+<li><a class="reference internal" href="#introduction">Introduction</a><ul>
+<li><a class="reference internal" href="#purpose">Purpose</a></li>
+<li><a class="reference internal" href="#overview">Overview</a></li>
+<li><a class="reference internal" href="#user-characteristics">User Characteristics</a></li>
+<li><a class="reference internal" href="#conventions">Conventions</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#functional-requirements">Functional Requirements</a><ul>
+<li><a class="reference internal" href="#function-1-i-o-format-checking">Function 1: I/O format checking</a></li>
+<li><a class="reference internal" href="#function-2-user-interface">Function 2: User Interface</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#nonfunctional-requirements">Nonfunctional Requirements</a><ul>
+<li><a class="reference internal" href="#response-time">response time</a></li>
+<li><a class="reference internal" href="#aesthetic-aspects">Aesthetic aspects</a></li>
+<li><a class="reference internal" href="#confidentiality-policy">Confidentiality policy</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#constraints">Constraints</a></li>
+<li><a class="reference internal" href="#change-cases">Change cases</a></li>
+<li><a class="reference internal" href="#milestones">Milestones</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">OMG</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#">Docs</a> &raquo;</li>
+        
+      <li>Software Requirements Specification for OMG Version 0.1</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="software-requirements-specification-for-omg-version-0-1">
+<h1>Software Requirements Specification for OMG Version 0.1<a class="headerlink" href="#software-requirements-specification-for-omg-version-0-1" title="Permalink to this headline">¶</a></h1>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Group:</th><td class="field-body"><p class="first">whatever we like</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">member:</th><td class="field-body"><ul class="first simple">
+<li>Gavin Gu, Architecture Analyst / AA,  e-mail: <a class="reference external" href="mailto:369713635&#37;&#52;&#48;qq&#46;com">369713635<span>&#64;</span>qq<span>&#46;</span>com</a></li>
+<li>Idyllic, Product Design / PD, e-mail: <a class="reference external" href="mailto:850092018&#37;&#52;&#48;qq&#46;com">850092018<span>&#64;</span>qq<span>&#46;</span>com</a></li>
+</ul>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">date:</th><td class="field-body"><p class="first last">2018/05/03 14:18</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="purpose">
+<h2>Purpose<a class="headerlink" href="#purpose" title="Permalink to this headline">¶</a></h2>
+<p>Comparing two samples, it’s quite useful to anlyse the different performances between the same genes automatically and quickly.</p>
+</div>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>a web applicaiton based on Flask framework for anlysing the difference between genes.</p>
+</div>
+<div class="section" id="user-characteristics">
+<h2>User Characteristics<a class="headerlink" href="#user-characteristics" title="Permalink to this headline">¶</a></h2>
+<p>biologists and some researchers or students in related area.</p>
+</div>
+<div class="section" id="conventions">
+<h2>Conventions<a class="headerlink" href="#conventions" title="Permalink to this headline">¶</a></h2>
+<p>Control sample - a cell sample prepared in its normal condition.</p>
+<p>Treatment sample - a cell sample treated by special chemicals, or in which some genes are altered.</p>
+<p>Differentially expressed genes - the genes which have significantly different expression levels between two samples.</p>
+<p>Up-regulation - a gene is said to be up-regulated if it has higher expression in treatment than in control.</p>
+<p>LogFC - log fold change of gene expression.  log_2 [T/C], where T is the gene expression level from a treatment sample, while C is the gene expression level from a control sample.</p>
+</div>
+</div>
+<div class="section" id="functional-requirements">
+<h1>Functional Requirements<a class="headerlink" href="#functional-requirements" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="function-1-i-o-format-checking">
+<h2>Function 1: I/O format checking<a class="headerlink" href="#function-1-i-o-format-checking" title="Permalink to this headline">¶</a></h2>
+<p>A valid submitted gene expression file has the following format.  It is a TAB-delimited, plain text file with three columns. The file contains an optional head line, followed by each gene’s expression in a control sample (e.g., ControlSample) and in a treatment sample (e.g., KnockOutSample).</p>
+<img alt="_images/IOFormat.png" src="_images/IOFormat.png" />
+<p>If an invalid gene expression is given, the web application returns a page informing the user to provide the correct format.</p>
+</div>
+<div class="section" id="function-2-user-interface">
+<h2>Function 2: User Interface<a class="headerlink" href="#function-2-user-interface" title="Permalink to this headline">¶</a></h2>
+<p>The web application has a simple interface with a single button [Upload and GO].</p>
+<p>Scientists upload a plain text file containing gene expression levels from two samples, representing two experimental conditions.</p>
+<p>Accepting the file, the software will return a table of differentially expressed genes and a scatter plot of these genes whose X-axis is control and Y-axis is treatment.</p>
+</div>
+</div>
+<div class="section" id="nonfunctional-requirements">
+<h1>Nonfunctional Requirements<a class="headerlink" href="#nonfunctional-requirements" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="response-time">
+<h2>response time<a class="headerlink" href="#response-time" title="Permalink to this headline">¶</a></h2>
+<p>In 5sec, we will give back the results.</p>
+</div>
+<div class="section" id="aesthetic-aspects">
+<h2>Aesthetic aspects<a class="headerlink" href="#aesthetic-aspects" title="Permalink to this headline">¶</a></h2>
+<p>Simple is best.</p>
+</div>
+<div class="section" id="confidentiality-policy">
+<h2>Confidentiality policy<a class="headerlink" href="#confidentiality-policy" title="Permalink to this headline">¶</a></h2>
+<p>We will NEVER use the sotred results to seek any benefits. And it’s still ok to get the result without sign in.</p>
+</div>
+</div>
+<div class="section" id="constraints">
+<h1>Constraints<a class="headerlink" href="#constraints" title="Permalink to this headline">¶</a></h1>
+<p>There are some constraints in this system as following:
+1)       According to the market shares of all kinds of browser and the compatibility of Internet Explorer, we decide that this software is accessible through Chrome, Firefox and Safari.</p>
+<ol class="arabic simple" start="2">
+<li>An excellent system should not need too much memory, so that it will run much faster and convenient, and we will not cost many internal storages for this system. Thus, the Web space is supposed to less than 1GB.</li>
+<li>The most important is the Budget. The less funds we use, the better we hope. But less budget does not mean just complete what we want this software can do, that is to say we expect using the least funds to use the best technology and realize the most functions. At last, we expect that the Budget ought to be limited in 10,000 USD.</li>
+<li>As we need use this software to help our research the whole year, and we wish that the software makes errors or shut down accidently much less, our team want the downtime of the system is less than 30 minutes per year</li>
+</ol>
+</div>
+<div class="section" id="change-cases">
+<h1>Change cases<a class="headerlink" href="#change-cases" title="Permalink to this headline">¶</a></h1>
+<p>There are still some other expectation we possess as following:
+In order to improve the practicability of this system and accomplish our research better, we expect that this system can give a few potential functions. For example, this system can set a threshold for log_2[FC] by itself. Or we upload several data, it can give the response several scatter plot, which will improve workpiece ratio of us than just upload one data table once. Next, we expect this system can have a login judge system to prevent people from outside using this system, maybe what we mean is like a firewall. Besides, we hope this system can judge whether the file that we upload is valid and whether it has existed or related to our research. If it is invalid, we hope it will appear some hint to guide us upload the correct file. If it has existed, the system can give corresponding information. Afterwards, we hope this system can clean up memory regularly and data recovery function in case system cash. At the same time, we hope this system can recover and display the result last time when we biologists open it next time. And, we want this system can give other functions not only to identify differentially expressed genes give a gene expression file containing two cell samples, we want more cell samples and we want to test the expression levels of genes through scientific calculations. Last but not least, our biologists may come from all over the world, so we want this system can with its own complicated translation function. Then, we expect this system is in simple style, as we are doing research we do not need pretty beautiful interface just in simple and clear is OK.</p>
+<p>Besides, we want this system possess privacy and security. Because our research is very confidential and authoritative, the result is all biologist</p>
+</div>
+<div class="section" id="milestones">
+<h1>Milestones<a class="headerlink" href="#milestones" title="Permalink to this headline">¶</a></h1>
+<p>For submit this system, we have some requirements as following:</p>
+<ol class="arabic simple">
+<li>We want a SRS to get a rough idea this system by 1 May 2018.</li>
+<li>We want to get SRS approved, much earlier much better, it is better before 15 May 2018.</li>
+<li>We expect to get design done by yourself to using Flask and learn what you need when you design this system from Internet. But it just can learn rather than copy, because we need a self-designed system which is relative safe than a copy system.</li>
+<li>We expect this system get coding done by Python in main, Java in assistant. Because Python and Java is the main programming language in current market, and Python is simpler to use than Java or C, the operation will also be simpler according to this.</li>
+<li>We expect this system can accept tests by 1 June 2018, so that we can give some suggestions of improvement and may found a few bugs to repair in a timely manner.</li>
+<li>After the last adjustment and testing the system, we hope this system can be released by 15 June 2018. Thus, our biologist can use this system in research as soon as possible.</li>
+</ol>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, GavinGu.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1.0',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
